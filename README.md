@@ -29,8 +29,8 @@ From there, the data was transformed, enriched, and aggregated to support busine
   - Azure Data Lake Storage Gen2 (Dev, Test, Prod)
   - Azure Blob Storage (Dev, Test, Prod)
   - Azure SQL Database (Dev, Test, Prod)
-  - Azure Key Vault (for secrets) ![](https://github.com/RemyPat/End-To-End-Retail-Sales-Analytics-with-ADF-DevOps/blob/upload/screenshots/Screenshot%202025-09-26%20at%2018.42.13.png)
-- **Azure DevOps Pipelines** for CI/CD ![](https://github.com/RemyPat/End-To-End-Retail-Sales-Analytics-with-ADF-DevOps/blob/upload/screenshots/Screenshot%202025-09-26%20at%2018.44.21.png)
+  - Azure Key Vault (for secrets) ![](https://github.com/RemyPat/End-To-End-Retail-Sales-Analytics-with-ADF-DevOps/blob/main/screenshots/Screenshot%202025-09-26%20at%2018.42.13.png)
+- **Azure DevOps Pipelines** for CI/CD ![](https://github.com/RemyPat/End-To-End-Retail-Sales-Analytics-with-ADF-DevOps/blob/main/screenshots/Screenshot%202025-09-26%20at%2018.44.21.png)
 
 
 
@@ -38,16 +38,16 @@ From there, the data was transformed, enriched, and aggregated to support busine
 
 ## ⚙️ Data Factory Components
 - **Pipelines** for orchestration  
-- **Triggers** (Tumbling Window for scheduled loads) ![](https://github.com/RemyPat/End-To-End-Retail-Sales-Analytics-with-ADF-DevOps/blob/upload/screenshots/Screenshot%202025-09-26%20at%2018.39.13.png)  
+- **Triggers** (Tumbling Window for scheduled loads) ![](https://github.com/RemyPat/End-To-End-Retail-Sales-Analytics-with-ADF-DevOps/blob/main/screenshots/Screenshot%202025-09-26%20at%2018.39.13.png)  
 - **Activities**:
   - Copy Activity
   - Lookup Activity
-  - For Each Activity ![](https://github.com/RemyPat/End-To-End-Retail-Sales-Analytics-with-ADF-DevOps/blob/upload/screenshots/Screenshot%202025-09-26%20at%2019.08.54.png)
+  - For Each Activity ![](https://github.com/RemyPat/End-To-End-Retail-Sales-Analytics-with-ADF-DevOps/blob/main/screenshots/Screenshot%202025-09-26%20at%2019.08.54.png)
 - **Transformations**:
   - Aggregate, Join, Select
   - Sorter, Derived Column
   - Sink & Source  
-- **Data Flows** for data transformation ![](https://github.com/RemyPat/End-To-End-Retail-Sales-Analytics-with-ADF-DevOps/blob/upload/screenshots/Screenshot%202025-09-26%20at%2018.43.47.png)
+- **Data Flows** for data transformation ![](https://github.com/RemyPat/End-To-End-Retail-Sales-Analytics-with-ADF-DevOps/blob/main/screenshots/Screenshot%202025-09-26%20at%2018.43.47.png)
 
 ---
 
@@ -73,19 +73,19 @@ From there, the data was transformed, enriched, and aggregated to support busine
 
 ## 🚀 DevOps CI/CD Setup
 - **Build Pipeline**  
-  - Generates ARM templates ![](https://github.com/RemyPat/End-To-End-Retail-Sales-Analytics-with-ADF-DevOps/blob/upload/screenshots/Screenshot%202025-09-26%20at%2018.41.12.png)   
+  - Generates ARM templates ![](https://github.com/RemyPat/End-To-End-Retail-Sales-Analytics-with-ADF-DevOps/blob/main/screenshots/Screenshot%202025-09-26%20at%2018.41.12.png)   
 - **Release Pipeline**  
   - Deploys ADF pipelines automatically to **Dev → Test → Prod**  
   - Uses **pipeline variables** to reference environment-specific resources  
 - **Two Deployment Approaches**:
-  1. Manual publish → Release pipeline trigger ![]([https://github.com/RemyPat/End-To-End-Retail-Sales-Analytics-with-ADF-DevOps/blob/upload/screenshots/Screenshot%202025-09-26%20at%2018.40.52.png](https://github.com/RemyPat/End-To-End-Retail-Sales-Analytics-with-ADF-DevOps/blob/upload/screenshots/Screenshot%202025-09-26%20at%2018.40.31.png))  
-  2. Fully automated CI/CD (triggered after pull request approval → build → release) ![](https://github.com/RemyPat/End-To-End-Retail-Sales-Analytics-with-ADF-DevOps/blob/upload/screenshots/Screenshot%202025-09-26%20at%2018.40.52.png)
+  1. Manual publish → Release pipeline trigger ![](https://github.com/RemyPat/End-To-End-Retail-Sales-Analytics-with-ADF-DevOps/blob/main/screenshots/Screenshot%202025-09-26%20at%2018.40.31.png)  
+  2. Fully automated CI/CD (triggered after pull request approval → build → release) ![](https://github.com/RemyPat/End-To-End-Retail-Sales-Analytics-with-ADF-DevOps/blob/main/screenshots/Screenshot%202025-09-26%20at%2018.40.52.png)
 
 ---
 
 ## 📊 Expected Outputs
-1. **sales_summary**: Customer-level spend in USD + number of orders ![](https://github.com/RemyPat/End-To-End-Retail-Sales-Analytics-with-ADF-DevOps/blob/upload/screenshots/Screenshot%202025-09-26%20at%2019.01.03.png)  
-2. **top_products**: Best-selling products by quantity and revenue ![](https://github.com/RemyPat/End-To-End-Retail-Sales-Analytics-with-ADF-DevOps/blob/upload/screenshots/Screenshot%202025-09-26%20at%2019.02.25.png) 
+1. **sales_summary**: Customer-level spend in USD + number of orders ![](https://github.com/RemyPat/End-To-End-Retail-Sales-Analytics-with-ADF-DevOps/blob/main/screenshots/Screenshot%202025-09-26%20at%2019.01.03.png)  
+2. **top_products**: Best-selling products by quantity and revenue ![](https://github.com/RemyPat/End-To-End-Retail-Sales-Analytics-with-ADF-DevOps/blob/main/screenshots/Screenshot%202025-09-26%20at%2019.02.25.png) 
 
 ---
 
